@@ -37,4 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 
-day*.txt
+src/main/resources/day*.txt
