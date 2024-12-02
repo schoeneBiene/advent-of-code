@@ -7,8 +7,9 @@ public abstract class Day {
         String first = part1(input);
         String second = part2(input);
 
-        System.out.println("Part 1 output: " + first);
-        System.out.println("Part 2 output: " + second);
+        System.out.println(this.getClass().getSimpleName() + " Part 1 output: " + first);
+        System.out.println(this.getClass().getSimpleName() + " Part 2 output: " + second);
+        System.out.println(" ");
     }
 
     public abstract String getInputFile();
